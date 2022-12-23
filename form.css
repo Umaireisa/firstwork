@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins',sans-serif;
+        }
+
+        body{
+        
+        }
+        .heading{
+            margin-top: 50px;
+            margin-left: 120px;
+            color: hsl(74deg 15% 39%);
+            font-size: 30px;
+        }
+        .container{
+            max-width: 700px;
+            width: 100%;
+            background-color: #fff;
+            padding: 10px 120px;
+           
+        }
+
+        .container .title{
+            font-size: 30px;
+            font-weight: 500;
+            position: relative;
+            background-color: hsl(27deg 89% 61%);
+            color: #fff;
+        }
+        .borderr{
+            border: 2px solid hsl(74deg 15% 39%);
+            width: 700px;
+        }
+        .content .form01 .user-details{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px 0 12px 0;
+        }
+        .form01 .user-details .input-box{
+            margin-bottom: 15px;
+            width: calc(100% / 2 - 20px);
+            }
+            .form01 .input-box span.details{
+            display: block;
+            font-weight: 500;
+            margin-bottom: 5px;
+            }
+            .user-details .input-box input{
+            height: 45px;
+            width: 100%;
+            outline: none;
+            font-size: 16px;
+            border-radius: 5px;
+            padding-left: 15px;
+            border: 1px solid #ccc;
+            border-bottom-width: 2px;
+            transition: all 0.3s ease;
+            }
+
+            /* Short Form Css Strat  */
+
+            .container2{
+                max-width: 350px;
+                width: 100%;
+                background-color: #fff;
+                padding: 10px 10px;
+                position: absolute;
+                margin-left: 855px;
+                margin-top: -460px;
+            }
+            
+            .container2 .title{
+                font-size: 30px;
+                font-weight: 500;
+                position: relative;
+                background-color: hsl(27deg 89% 61%);
+                color: #fff;
+            }
+
+            /* Form  2 Css Now Strat  */
+
+            .container1{
+                max-width: 700px;
+            width: 100%;
+            background-color: #fff;
+            padding: 10px 120px;
+            }
+            .container1 .title{
+                font-size: 30px;
+                font-weight: 500;
+                position: relative;
+                background-color: hsl(27deg 89% 61%);
+                color: #fff;
+            }
+            .borderr1{
+                border: 2px solid hsl(74deg 15% 39%);
+                width: 700px;
+            }
+            .content .form02 .user-details1{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin: 20px 0 12px 0;
+            }
+            .form02 .user-details1 .input-box{
+                margin-bottom: 15px;
+                width: calc(100% / 2 - 20px);
+                }
+
+               
+                .form02 .input-box span.details{
+                display: block;
+                font-weight: 500;
+                margin-bottom: 5px;
+                }
+                .user-details1 .input-box input{
+                height: 45px;
+                width: 100%;
+                outline: none;
+                font-size: 16px;
+                border-radius: 5px;
+                padding-left: 15px;
+                border: 1px solid #ccc;
+                border-bottom-width: 2px;
+                transition: all 0.3s ease;
+                }
+
+               .form-check{
+                margin-left: 120px;
+               }
+               .button{
+                height: 45px;
+                margin: 35px 0
+              }
+              .button input{
+                height: 100%;
+                width: 52%;
+                margin-left: 121px;
+                border-radius: 5px;
+                border: none;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 500;
+                letter-spacing: 1px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                background: hsl(74deg 15% 39%);
+              }
+              form .button input:hover{
+               /* transform: scale(0.99); */
+               background:hsl(74deg 15% 39%) ;
+               }
+
+               .footer {
+                background: hsl(96deg 16% 24%);
+                /* justify-content: center;
+                align-items: center; */
+               
+                
+               }
+               .box-container{
+                margin-left: 500px;
+               
+               }
+               .box-container h3{
+                font-size: 45px;
+                margin-left: 35px;
+               }
+               .box-container .RV{
+                font-size: 20px;
+                font-weight: 400;
+               }
+
+
+               .credit{
+                background: hsl(74deg 15% 39%);
+               }
+               .credit .um{
+                margin-left: 510px;
+               }
+               
